@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skills",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Skill": {
+      "type": "string"
+    },
+    "Percentage": {
+      "type": "integer"
+    }
+  }
+}

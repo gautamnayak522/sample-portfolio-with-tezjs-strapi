@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "Phone": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
